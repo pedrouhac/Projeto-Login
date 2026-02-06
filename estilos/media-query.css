@@ -6,6 +6,7 @@
     }
     article{
         width: 85vw;
+        height: 316px;
     }
     #imagem{
         float: left;
@@ -23,8 +24,9 @@
 @media screen and (min-width: 992px) {
     
     article{
-        max-width: 800px;
-        width: 85vw;
+        
+        width: 800px;
+        height: 327px;
     }
     #imagem{
         float: right;
