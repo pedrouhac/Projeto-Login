@@ -114,34 +114,33 @@ form input[type=submit]{
 }
 
 form input[type=submit]:hover{
-    background-color: #0DFA6B;
+    background-color: #2DCF6E;
 }
 
 .botao{
-    background-color: white;
-    text-align: center;
     width: 100%;
     height: 40px;
-    border: 1px solid #2DCF6E;
-    margin-top: 10px;
+    border: 1px solid var(--cor3);
     border-radius: 10px;
-    font-weight: 400;
+    margin-top: 10px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.445);
-    padding: 5px;
-    cursor: pointer;
-    
+    text-align: center;
+    line-height: 40px;
     
 }
-.botao a{
+
+.botao span {
+    vertical-align: middle;
+    position: relative;
+    top: -2px; 
+    color: black; 
+    font-size: 1.5em;
+}
+
+.botao a {
     text-decoration: none;
     color: black;
+
 }
 
-.botao:hover{
-    background-color: whitesmoke;
-}
 
-.botao span{
-    font-size: large;
-    
-}
